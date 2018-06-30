@@ -1,5 +1,5 @@
 # Haptic Learning
-A simple proof of concept project for MUMT 619.
+A simple proof of concept for the Haptic Tutor project.
 
 ## Settings
 - In `Audio MIDI Setup` it is recommended to create a new port in the `IAC Driver`.
@@ -16,3 +16,8 @@ A simple proof of concept project for MUMT 619.
 	- Other Software can also accomplish this task. __This is not a promotion of Cycling '74 software.__
 
 <img src="imgs/Max settings.png" width=500>
+
+## Source files
+- `/Tactons.maxpat` : Application (MaxMSP build) that parses and interprets MIDI messages from `/drum1.maxpat` and `ins-filter.maxpat`
+- `/vibropixels/VP_Metro` includes device drivers and communication protocol written in C++
+
